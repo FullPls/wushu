@@ -1,0 +1,70 @@
+/*-----------------------------------------------------------------------------------*/
+/* Филиалы — только внутри .page-filials */
+
+.page-filials .chestfilial {
+	height: flex;
+	min-height: 727px;
+	justify-content: space-evenly;
+}
+
+.page-filials .chestfilial .container {
+	height: flex;
+	width: 990px;
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.page-filials .filialnum {
+	width: 305px;
+	height: 550px;
+	cursor: pointer;
+}
+
+.page-filials .filialnum li {
+	display: inline-block;
+	cursor: pointer;
+}
+
+.page-filials .filbutton a {
+	display: inline-block;
+	color: #000;
+	opacity: 0.6;
+	text-decoration: none;
+	padding: 10px;
+	transition: all 0.07s ease-in-out;
+	cursor: pointer;
+}
+
+.page-filials .filbutton a:hover {
+	opacity: 1;
+	border-radius: 100px;
+	transform: scale(1.04);
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+	cursor: pointer;
+}
+
+.page-filials .photos {
+	max-width: 685px;
+	max-height: 550px;
+}
+
+.page-filials .fil_photo {
+	max-width: inherit;
+	max-height: 500px;
+}
+
+.page-filials .onmap,
+.page-filials .filials-onmap {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.page-filials .filbutton {
+	display: inline-block;
+	color: #000;
+	opacity: 0.6;
+	text-decoration: none;
+	padding: 10px;
+	transition: all 0.07s ease-in-out;
+}

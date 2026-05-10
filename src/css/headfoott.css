@@ -1,0 +1,167 @@
+/* Шапка и подвал: только внутри .site-chrome (см. App.js), без глобального body */
+
+.site-chrome .headbar {
+	width: 100%;
+	height: 70px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.site-chrome .headbar .container {
+	height: inherit;
+	max-width: 990px;
+	position: relative;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.site-chrome .headbar-menu {
+	list-style-type: none;
+	padding-left: 0;
+	margin-bottom: 0;
+}
+
+.site-chrome .headbar-menu li {
+	display: inline-block;
+}
+
+.site-chrome .headbar-menu li a {
+	display: inline-block;
+	color: #000;
+	opacity: 0.6;
+	text-decoration: none;
+	padding: 10px;
+	transition: all 0.07s ease-in-out;
+}
+
+.site-chrome .headbar-menu li a:hover {
+	opacity: 1;
+	border-radius: 100px;
+	transform: scale(1.04);
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.site-chrome .headbar-wrap {
+	display: flex;
+	align-items: center;
+}
+
+.site-chrome .emblem {
+	position: relative;
+	height: 100%;
+	transition: all 0.25s ease-in-out;
+}
+
+.site-chrome .emblem:hover {
+	transform: scale(1.1);
+}
+
+.site-chrome .userim {
+	position: relative;
+	height: 50px;
+	width: 50px;
+	transition: all 0.25s ease-in-out;
+}
+
+.site-chrome .userim:hover {
+	transform: scale(1.1);
+}
+
+/*-----------------------------------------------------------------------------------*/
+
+.site-chrome .footbar {
+	width: 100%;
+	height: 115px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.site-chrome .footbar .container {
+	height: inherit;
+	max-width: 990px;
+	position: relative;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.site-chrome .arrowUP {
+	position: absolute;
+	float: right;
+	top: 0;
+	height: 100px;
+	width: 100px;
+	transition: all 0.25s ease-in-out;
+	opacity: 0.6;
+	border: none;
+	background: transparent;
+	padding: 0;
+	cursor: pointer;
+}
+
+.site-chrome .arrowUP:hover {
+	transform: scale(1.15);
+	opacity: 1;
+}
+
+.site-chrome .footbar-menu li {
+	display: inline-block;
+	justify-content: space-between;
+	margin: 10px;
+}
+
+.site-chrome .footbar-menu li a {
+	display: inline-block;
+	color: #000;
+	opacity: 0.6;
+	text-decoration: none;
+	padding: 10px;
+	transition: all 0.07s ease-in-out;
+}
+
+.site-chrome .footbar-menu li a:hover {
+	opacity: 1;
+	border-radius: 100px;
+	transform: scale(1.04);
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.site-chrome .footbar-wrap {
+	display: flex;
+}
+
+.site-chrome .soso {
+	display: flow;
+	max-width: 866px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.site-chrome .social {
+	display: flex;
+	width: 150px;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.site-chrome .with {
+	height: 25px;
+	transition: all 0.25s ease-in-out;
+}
+
+.site-chrome .vk {
+	height: 50px;
+	transition: all 0.25s ease-in-out;
+	opacity: 0.6;
+}
+
+.site-chrome .vk:hover {
+	transform: scale(1.15);
+	opacity: 1;
+}
+
+.site-chrome .legal {
+	height: 42px;
+	max-width: 866px;
+	font-size: 12px;
+	line-height: 1.4;
+	color: #000;
+}

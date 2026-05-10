@@ -1,0 +1,42 @@
+/*-----------------------------------------------------------------------------------*/
+/* Об Ушу / слава — только внутри .page-about */
+
+.page-about .chestfilial {
+	min-height: 727px;
+}
+
+.page-about .chestfilial .container {
+	height: flex;
+	width: 990px;
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.page-about .filialnum {
+	width: 305px;
+	height: inherit;
+}
+
+.page-about .filialnum li {
+	display: inline-block;
+}
+
+.page-about .filialnum li a {
+	display: inline-block;
+	color: #000;
+	opacity: 0.6;
+	text-decoration: none;
+	padding: 10px;
+	transition: all 0.07s ease-in-out;
+}
+
+.page-about .filialnum li a:hover {
+	opacity: 1;
+	border-radius: 100px;
+	transform: scale(1.04);
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.page-about .fil_photo {
+	width: 685px;
+}

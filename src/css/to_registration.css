@@ -1,0 +1,27 @@
+
+/*-----------------------------------------------------------------------------------*/
+
+.page-register .reg {
+	min-height: 727px;
+}
+
+.page-register .reg .container {
+	height: flex;
+	width: 450px;
+}
+
+.page-register .reg .container .form-signin {
+	height: flex;
+	width: 400px;
+}
+
+.page-register .btn-success:hover {
+	transition: all 0.07s ease-in-out;
+	transform: scale(1.04);
+}
+
+.page-register .field {
+	height: flex;
+	width: 400px;
+	border: solid;
+}

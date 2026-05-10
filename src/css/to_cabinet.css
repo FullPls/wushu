@@ -1,0 +1,63 @@
+/*-----------------------------------------------------------------------------------*/
+/* Личный кабинет — только внутри .page-cabinet */
+
+.page-cabinet .chestfilial {
+	min-height: 727px;
+}
+
+.page-cabinet .chestfilial .container {
+	height: flex;
+	width: 990px;
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.page-cabinet .filialnum {
+	width: 305px;
+	height: inherit;
+}
+
+.page-cabinet .filialnum li {
+	display: inline-block;
+	float: left;
+}
+
+.page-cabinet .filialnum li a {
+	display: inline-block;
+	color: #000;
+	opacity: 0.6;
+	text-decoration: none;
+	padding: 10px;
+	transition: all 0.07s ease-in-out;
+}
+
+.page-cabinet .filialnum li a:hover {
+	opacity: 1;
+	border-radius: 100px;
+	transform: scale(1.04);
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.page-cabinet .fil_photo {
+	width: 685px;
+}
+
+.page-cabinet .avatar {
+	position: relative;
+	display: flex;
+	justify-content: space-evenly;
+	height: 130px;
+	width: inherit;
+}
+
+.page-cabinet .avatarim {
+	position: relative;
+	height: 130px;
+	width: 130px;
+	transition: all 0.25s ease-in-out;
+	border-radius: 10px;
+}
+
+.page-cabinet .avatarim:hover {
+	transform: scale(1.15);
+}

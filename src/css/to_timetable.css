@@ -1,0 +1,65 @@
+/*-----------------------------------------------------------------------------------*/
+/* Расписание — только внутри .page-timetable */
+
+.page-timetable .chestfilial {
+	height: flex;
+	min-height: 727px;
+	justify-content: space-evenly;
+}
+
+.page-timetable .chestfilial .container {
+	height: flex;
+	width: 990px;
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.page-timetable .filialnum {
+	width: 305px;
+	height: 550px;
+}
+
+.page-timetable .filialnum li {
+	display: inline-block;
+}
+
+.page-timetable .filbutton a {
+	display: inline-block;
+	color: #000;
+	opacity: 0.6;
+	text-decoration: none;
+	padding: 10px;
+	transition: all 0.07s ease-in-out;
+}
+
+.page-timetable .filbutton a:hover {
+	opacity: 1;
+	border-radius: 100px;
+	transform: scale(1.04);
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.page-timetable .photos {
+	max-width: 685px;
+	max-height: 550px;
+}
+
+.page-timetable .fil_photo {
+	max-width: inherit;
+	max-height: 500px;
+}
+
+.page-timetable .onmap {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.page-timetable .filbutton {
+	display: inline-block;
+	color: #000;
+	opacity: 0.6;
+	text-decoration: none;
+	padding: 10px;
+	transition: all 0.07s ease-in-out;
+}

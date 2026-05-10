@@ -1,0 +1,22 @@
+
+/*-----------------------------------------------------------------------------------*/
+.page-login .reg {
+	min-height: 727px;
+	align-items: center;
+}
+
+.page-login .reg .container {
+	border-color: black;
+	height: flex;
+	width: 450px;
+}
+
+.page-login .reg .container .form-signin {
+	height: flex;
+	width: 400px;
+}
+
+.page-login .btn-success:hover {
+	transition: all 0.07s ease-in-out;
+	transform: scale(1.04);
+}
